@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+.nav-bar {
+    display: flex;
+    background-color: black;
+    color: White;
+}
+h1 {
+    padding: 0 0 0 300px;
+}
+.top-list {
+    display: flex;
+}
+.top {
+    padding: 15px 30px;
+    list-style: none;
+}
+.side {
+    color: darkgray;
+    padding: 15px 30px;
+}
+.button {
+    display: flex;
+    background-color: aqua;
+    color: black;
+    margin: 12px 12px 12px 200px;
+    padding: 5px 12px;
+}
+
+/* <-----End nav-bar-----> */
+
+.main-page {
+    display: flex;
+    margin: 0 auto;
+
+}
+.col-1 {
+    flex: 1;
+}
+.user-card {
+    margin: 30px 30px 30px 300px;
+    width: 500px;
+    border: 2px solid gray;
+}
+.top-header {
+    align-items: top;
+    height: 60px;
+    padding: 20px;
+    background-color: teal;
+}
+.img-1 {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    padding: 20px 40px;
+}
+.person {
+    padding: 60px 70px 0 70px;
+}
+.location {
+    display: flex;
+}
+.img-2 {
+    height: 20px;
+    padding: 10px 0px 10px 70px;
+}
+h3 {
+    margin: 10px 5px;
+}
+ul {
+    display: flex;
+    padding: 0 60px;
+    list-style: none;
+    font-weight: 400;
+    font-size: medium;
+}
+li {
+    padding-left: 10px;
+    font-weight: 400;
+}
+.master {
+    padding: 5px 0 20px 70px;
+    font-weight: 400;
+    font-size: medium;
+}
+.edit, .img-3 {
+    display: flex;
+    height: 20px;
+    padding: 0 10px 20px 35px;
+}
+
+/* <----End of User Card----> */
+
+.card-1 {
+    margin: 30px 30px 30px 300px;
+    width: 500px;
+    border: 2px solid gray;
+}
+.card-header-1{
+    align-items: top;
+    height: 20px;
+    padding: 20px 20px 20px 60px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 400;
+}
+.dojo, .date, h4 {
+    padding: 10px 0 10px 60px;
+}
+.date {
+    color: gray;
+}
+
+/* End Card 1 */
+
+.col-2 {
+    flex: 2;
+}
+.card-2 {
+    margin: 30px;
+    width: 300px;
+    border: 2px solid gray;
+}
+.card-header-2 {
+    display:flex;
+    align-items: top;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 400;
+
+}
+.number-1 {
+    border: 1px solid gray;
+    border-radius: 100%;
+    background-color: gray;
+    color: black;
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+
+}
+.connection {
+    padding: 5px 10px;
+}
+.row-1, .row-2 {
+    display: flex;
+}
+.name {
+    padding: 20px;
+}
+.name-2 {
+    padding: 20px 23px;
+}
+.picture, .circle{
+    border-radius: 100px;
+    height: 40px;
+    padding: 10px;
+}
+/* End Card 2 */
+
+.card-header-3 {
+    display:flex;
+    align-items: top;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: 400;
+}
+.number-2 {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding: 0 10px;
+}
+.connections {
+    padding: 5px 10px;
+}
+.name {
+    padding: 20px;
+}
+.row-3, .row-4, .row-5, .row-6 {
+    display: flex;
+}
+hr {
+    border: 1px solid gray;
+}
+a {
+    padding: 20px;
+}
+/* End Card 3 */
+
+
